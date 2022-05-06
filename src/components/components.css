@@ -1,0 +1,26 @@
+.calc-keypad {
+	z-index: 1;
+	height: 100%;
+	margin: 0px 10px;
+	border-radius: 0px 0px 12px 12px;
+	box-shadow: 0px 0px 10px 0px lightgrey;
+	background-color: #F0F0F3;
+	display: flex;
+	justify-content: center;
+}
+
+
+.calc-keypad-col {
+	display: flex;
+}
+
+.calc-key {
+	background: #F0F0F3;
+	box-shadow: -10px -10px 24px rgba(255, 255, 255, 0.6), 10px 10px 24px rgba(174, 174, 192, 0.2);
+	border-radius: 16px;
+}
+
+.calc-key:hover {
+	cursor: pointer;
+	background-color: aliceblue;
+}
